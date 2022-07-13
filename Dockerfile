@@ -1,45 +1,44 @@
-FROM ros:melodic-ros-base-bionic
+FROM ros:noetic-ros-base
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    ros-melodic-amcl \
-    ros-melodic-base-local-planner \
-    ros-melodic-carrot-planner \
-    ros-melodic-cartographer-ros \
-    ros-melodic-clear-costmap-recovery \
-    ros-melodic-control-msgs \
-    ros-melodic-costmap-2d \
-    ros-melodic-diagnostics \
-    ros-melodic-dwa-local-planner \
-    ros-melodic-executive-smach \
-    ros-melodic-fake-localization \
-    ros-melodic-filters \
-    ros-melodic-geometry \
-    ros-melodic-global-planner \
-    ros-melodic-grid-map \
-    ros-melodic-image-common \
-    ros-melodic-image-pipeline \
-    ros-melodic-image-transport-plugins \
-    ros-melodic-joint-state-publisher \
-    ros-melodic-kdl-parser \
-    ros-melodic-kdl-parser-py \
-    ros-melodic-laser-pipeline \
-    ros-melodic-map-server \
-    ros-melodic-move-base \
-    ros-melodic-move-base-msgs \
-    ros-melodic-move-slow-and-clear \
-    ros-melodic-nav-core \
-    ros-melodic-navfn \
-    ros-melodic-perception-pcl \
-    ros-melodic-robot-state-publisher \
-    ros-melodic-ros-base \
-    ros-melodic-ros-base \
-    ros-melodic-rosdoc-lite \
-    ros-melodic-rotate-recovery \
-    ros-melodic-urdf \
-    ros-melodic-urdf-parser-plugin \
-    ros-melodic-vision-opencv \
-    ros-melodic-voxel-grid \
-    ros-melodic-xacro
+    ros-noetic-amcl \
+    ros-noetic-base-local-planner \
+    ros-noetic-carrot-planner \
+    ros-noetic-clear-costmap-recovery \
+    ros-noetic-control-msgs \
+    ros-noetic-costmap-2d \
+    ros-noetic-diagnostics \
+    ros-noetic-dwa-local-planner \
+    ros-noetic-executive-smach \
+    ros-noetic-fake-localization \
+    ros-noetic-filters \
+    ros-noetic-geometry \
+    ros-noetic-global-planner \
+    ros-noetic-grid-map \
+    ros-noetic-image-common \
+    ros-noetic-image-pipeline \
+    ros-noetic-image-transport-plugins \
+    ros-noetic-joint-state-publisher \
+    ros-noetic-kdl-parser \
+    ros-noetic-kdl-parser-py \
+    ros-noetic-laser-pipeline \
+    ros-noetic-map-server \
+    ros-noetic-move-base \
+    ros-noetic-move-base-msgs \
+    ros-noetic-move-slow-and-clear \
+    ros-noetic-nav-core \
+    ros-noetic-navfn \
+    ros-noetic-perception-pcl \
+    ros-noetic-robot-state-publisher \
+    ros-noetic-ros-base \
+    ros-noetic-ros-base \
+    ros-noetic-rosdoc-lite \
+    ros-noetic-rotate-recovery \
+    ros-noetic-urdf \
+    ros-noetic-urdf-parser-plugin \
+    ros-noetic-vision-opencv \
+    ros-noetic-voxel-grid \
+    ros-noetic-xacro
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     clang \
