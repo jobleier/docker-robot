@@ -33,10 +33,16 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-melodic-robot-state-publisher \
     ros-melodic-ros-base \
     ros-melodic-ros-base \
+    ros-melodic-rosdoc-lite \
     ros-melodic-rotate-recovery \
     ros-melodic-urdf \
     ros-melodic-urdf-parser-plugin \
     ros-melodic-vision-opencv \
     ros-melodic-voxel-grid \
-    ros-melodic-xacro \
+    ros-melodic-xacro
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    clang \
+    clang-tidy \
+    lcov \
     && rm -rf /var/lib/apt/lists/*
