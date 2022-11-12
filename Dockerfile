@@ -44,5 +44,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN apt-get update && apt-get install -y --no-install-recommends \
     clang \
     clang-tidy \
+    clang-10 \
+    clang-tidy-10 \
     lcov \
+    python3-pip \
+    python3-flake8 \
     && rm -rf /var/lib/apt/lists/*
+
