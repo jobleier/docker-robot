@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-melodic-executive-smach \
     ros-melodic-fake-localization \
     ros-melodic-filters \
+    ros-melodic-gazebo-ros-control \
+    ros-melodic-gazebo-ros-pkgs \
     ros-melodic-geometry \
     ros-melodic-global-planner \
     ros-melodic-grid-map \
@@ -32,7 +34,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-melodic-perception-pcl \
     ros-melodic-robot-state-publisher \
     ros-melodic-ros-base \
-    ros-melodic-ros-base \
+    ros-melodic-roslint \
     ros-melodic-rosdoc-lite \
     ros-melodic-rotate-recovery \
     ros-melodic-urdf \
