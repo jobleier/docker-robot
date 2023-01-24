@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-noetic-executive-smach \
     ros-noetic-fake-localization \
     ros-noetic-filters \
+    ros-noetic-gazebo-ros-control \
+    ros-noetic-gazebo-ros-pkgs \
     ros-noetic-geometry \
     ros-noetic-global-planner \
     ros-noetic-grid-map \
@@ -31,7 +33,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-noetic-perception-pcl \
     ros-noetic-robot-state-publisher \
     ros-noetic-ros-base \
-    ros-noetic-ros-base \
+    ros-noetic-roslint \
     ros-noetic-rosdoc-lite \
     ros-noetic-rotate-recovery \
     ros-noetic-urdf \
